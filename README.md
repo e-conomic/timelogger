@@ -35,7 +35,7 @@ If you have any questions or concerns please simply ask.
 
 ---
 
-We realise there are a lot of moving parts to such an application. To help, we have scaffolded a .NET Core 1.1 Visual Studio solution containing some basic setup to get you started, and a create-react-app base application, containing some basic components and bootstrap styling to get you started.
+We realise there are a lot of moving parts to such an application. To help, we have scaffolded a .NET Core 2.1 solution containing some basic setup to get you started, and a create-react-app base application, containing some basic components and bootstrap styling to get you started.
 
 - Styling and graphical design is not that important, we are assesing your ability to craft software and understand the basics - focus on that
 - Do not worry about authentication, imagine your application is already authenticated and simply send a dummy user id between server and client

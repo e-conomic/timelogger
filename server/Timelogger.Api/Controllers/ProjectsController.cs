@@ -13,6 +13,13 @@ namespace Timelogger.Api.Controllers
 			_context = context;
 		}
 
+		[HttpGet]
+		[Route("hello-world")]
+		public string Index()
+		{
+			return "Hello Back!";
+		}
+
 		// GET api/projects
 		[HttpGet]
 		public IActionResult Get()
