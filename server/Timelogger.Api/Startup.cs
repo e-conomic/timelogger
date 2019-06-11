@@ -8,7 +8,7 @@ using Timelogger.Entities;
 
 namespace Timelogger.Api
 {
-    public class Startup
+	public class Startup
 	{
 		private readonly IHostingEnvironment _environment;
 		public IConfigurationRoot Configuration { get; }
@@ -18,16 +18,16 @@ namespace Timelogger.Api
 			_environment = env;
 
 			var builder = new ConfigurationBuilder()
-                .SetBasePath(env.ContentRootPath)
-                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
-                .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
-                .AddEnvironmentVariables();
-            Configuration = builder.Build();
+				.SetBasePath(env.ContentRootPath)
+				.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+				.AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
+				.AddEnvironmentVariables();
+			Configuration = builder.Build();
 		}
 
 		// This method gets called by the runtime. Use this method to add services to the container.
 		public void ConfigureServices(IServiceCollection services)
-        {
+		{
 			// Add framework services.
 			services.AddDbContext<ApiContext>(opt => opt.UseInMemoryDatabase());
 
@@ -39,11 +39,11 @@ namespace Timelogger.Api
 			services.AddMvc();
 		}
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
-        {
-            loggerFactory.AddConsole(Configuration.GetSection("Logging"));
-            loggerFactory.AddDebug();
+		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+		public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
+		{
+			loggerFactory.AddConsole(Configuration.GetSection("Logging"));
+			loggerFactory.AddDebug();
 
 			if (env.IsDevelopment())
 			{
