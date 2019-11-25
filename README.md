@@ -1,6 +1,6 @@
-# e-conomic hiring task
+# e-conomic/sproom hiring task
 
-As a part of the e­conomic recruitment process we ask our candidates to complete a practical development challenge. The challenge consists of two parts:
+As a part of the e-conomic/sproom recruitment process we ask our candidates to complete a practical development challenge. The challenge consists of two parts:
 
 1. You solve the provided task, and send the results to us.
 2. We host a session where you present your solution to us, and we all have a nice talk about it.
