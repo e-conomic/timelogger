@@ -7,9 +7,9 @@ As a part of the e-conomic/sproom recruitment process we ask our candidates to c
 
 The task is to implement a simple time logger web application that solves the following three user stories:
 
-1. As a freelancer I want to be able to register how I spend time on my projects, so that I can provide my customers with an overview of my work.
-2. As a freelancer I want to be able to get an overview of my time registrations per project, so that I can create correct invoices for my customers.
-2. As a freelancer I want to be able to sort my projects by their deadline, so that I can prioritise my work.
+1. As a freelancer I want to be able to register how I spend time on my _projects_, so that I can provide my _customers_ with an overview of my work.
+2. As a freelancer I want to be able to get an _overview of my time registrations per project_, so that I can create correct invoices for my customers.
+2. As a freelancer I want to be able to _sort my projects by their deadline_, so that I can prioritise my work.
 
 Individual time registrations should be 30 minutes or longer, and once a project is complete it can no longer receive new registrations. You do not need to create an actual invoice.
 
@@ -26,6 +26,7 @@ What we're looking for is to see if you have the ability to transform a set of u
 -   Is appropriately covered by tests, in the frontend and backend (where required)
 -   Follows sensible structured design patterns and thought proceses
 -   Validates user input and contains test coverage for these use cases, at least in the backend
+-   The front-end is typed using typescript
 
 We want to see that you have thought about the design of your application, and considered how it might scale as it's complexity increases:
 

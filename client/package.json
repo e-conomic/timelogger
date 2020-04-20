@@ -4,14 +4,20 @@
   "private": true,
   "dependencies": {
     "axios": "^0.19.0",
-    "react": "^16.8.6",
-    "react-bootstrap": "^0.32.1",
-    "react-dom": "^16.8.6"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "react-scripts": "^3.0.1"
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.6",
+    "react-scripts": "^3.4.1",
+    "tailwindcss": "^1.2.0",
+    "typescript": "^3.8.3"
   },
   "scripts": {
+    "build:tailwind": "tailwindcss build src/app/tailwind.css -o src/app/tailwind.generated.css",
+    "prestart": "npm run build:tailwind",
+    "prebuild": "npm run build:tailwind",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
