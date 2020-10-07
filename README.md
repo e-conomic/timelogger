@@ -48,7 +48,7 @@ We realise there are a lot of moving parts to such an application. To help, we h
 
 ## Development
 
-To run this project you will need both .NET Core v2.2 and Node installed on your environment.
+To run this project you will need both .NET Core v3.1 and Node installed on your environment.
 
 Server - `dotnet restore` - to restore nuget packages, `dotnet build` - to build the solution, `cd Timelogger.Api && dotnet run` - starts a server on http://localhost:3001. You can download Visual Studio Code. The project was tested on MacOS High Sierra and Windows 10.
 
