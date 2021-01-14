@@ -39,7 +39,7 @@ If you have any questions or concerns please simply ask.
 
 ---
 
-We realise there are a lot of moving parts to such an application. To help, we have scaffolded a .NET Core 2.2 solution containing some basic setup to get you started, and a create-react-app base application for the front-end, containing some basic components and bootstrap styling to get you started.
+We realise there are a lot of moving parts to such an application. To help, we have scaffolded a .NET Core v3.1 solution containing some basic setup to get you started, and a create-react-app base application for the front-end, containing some basic components and bootstrap styling to get you started.
 
 -   You are welcome to change or remove any part of this code, it is meant simply as a starting point
 -   Styling and graphical design is not that important, we are assesing your ability to design and architect software - focus on that
